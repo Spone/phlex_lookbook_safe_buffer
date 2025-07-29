@@ -5,11 +5,11 @@ class BrokenButtonPreview < Lookbook::Preview
   end
 
   def with_icon
-    render Components::BrokenButton.new(href: "#", icon: "ExternalLink") { "Button with Icon" }
+    render Components::BrokenButton.new(href: "#", icon: PhlexIcons::Lucide::ExternalLink) { "Button with Icon" }
   end
 
   def with_href_and_icon
-    render Components::BrokenButton.new(href: "#", icon: "ExternalLink") { "Link" }
+    render Components::BrokenButton.new(href: "#", icon: PhlexIcons::Lucide::ExternalLink) { "Link" }
   end
   # @!endgroup
 end

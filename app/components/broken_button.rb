@@ -11,13 +11,7 @@ class Components::BrokenButton < Phlex::HTML
     puts view_context.link_to(@href).class
     link_to(@href) do
       yield
-      icon
+      render(@icon) if @icon
     end
-  end
-
-  private
-
-  def icon
-    @icon ? Lucide.public_send(@icon) : nil
   end
 end
