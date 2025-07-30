@@ -65,4 +65,4 @@ end
 gem "lookbook", "~> 2.3"
 gem "phlex-rails", "~> 2.3"
 
-gem "phlex-icons-lucide", "~> 2.30"
+gem "phlex-icons-lucide", "~> 2.31"
